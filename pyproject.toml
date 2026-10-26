@@ -1,0 +1,22 @@
+[project]
+name = "castillo-course03-tuto-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "EVAMARIA CASTILLO", email = "evamaria.castillosanchez@edu.em-lyon.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+castillo-course03-tuto-python = "castillo_course03_tuto_python:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
